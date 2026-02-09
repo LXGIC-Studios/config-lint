@@ -1,0 +1,47 @@
+{
+  "name": "@lxgicstudios/config-lint",
+  "version": "1.0.0",
+  "description": "Validate config files: JSON, YAML, TOML, and ENV. Auto-detect format, batch validate with glob, strict mode, and auto-fix. Zero dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "config-lint": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "config",
+    "lint",
+    "validate",
+    "json",
+    "yaml",
+    "toml",
+    "env",
+    "dotenv",
+    "cli",
+    "linter",
+    "syntax-check",
+    "configuration",
+    "formatter",
+    "strict",
+    "typescript"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/config-lint.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
