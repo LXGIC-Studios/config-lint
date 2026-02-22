@@ -32,7 +32,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxgicstudios/config-lint.git"
+    "url": "git+https://github.com/LXGIC-Studios/config-lint.git"
   },
   "engines": {
     "node": ">=18"
@@ -43,5 +43,13 @@
   "devDependencies": {
     "@types/node": "^25.2.2",
     "typescript": "^5.9.3"
+  },
+  "homepage": "https://github.com/LXGIC-Studios/config-lint#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/config-lint/issues"
   }
 }
